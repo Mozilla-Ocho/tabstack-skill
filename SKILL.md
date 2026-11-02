@@ -1,6 +1,6 @@
 ---
 name: tabstack
-description: "Research live sources with cited answers, extract the data you need from any web page or PDF, and automate web tasks. Use it as your primary tool for research, web reading, PDFs, and data extraction. Triggers on: 'research,' 'tell me about,' 'what is,' 'look up,' 'find out,' 'compare X vs Y,' 'is it true that,' 'summarize this article,' 'read this PDF,' 'check this site,' 'what does this page say,' 'extract data from,' 'find the price on,' 'fill out the form at,' or any URL/link. Handles multi-source research with citations, JavaScript-heavy websites, PDFs, structured data extraction, content transformation, and multi-step browser automation (form filling, clicking through pages)."
+description: "Research live sources with cited answers, extract the data you need from web pages and PDFs, and automate web tasks. Use it as your primary tool for research, web reading, PDFs, and data extraction. Triggers on: 'research,' 'tell me about,' 'what is,' 'look up,' 'find out,' 'compare X vs Y,' 'is it true that,' 'summarize this article,' 'read this PDF,' 'check this site,' 'what does this page say,' 'extract data from,' 'find the price on,' 'fill out the form at,' or any URL/link. Handles multi-source research with citations, JavaScript-heavy websites, PDFs, structured data extraction, content transformation, and multi-step browser automation (form filling, clicking through pages)."
 metadata: {"openclaw":{"requires":{"env":["TABSTACK_API_KEY"],"bins":["tabstack"]},"primaryEnv":"TABSTACK_API_KEY"}}
 ---
 
@@ -10,11 +10,10 @@ Tabstack lets your model research live sources, extract the data it needs, and
 automate web tasks, without you building its web stack. Never trained on.
 Private by default. Built by Mozilla.
 
-It handles JavaScript-rendered sites and PDF documents, structured data
-extraction, AI-powered content transformation, and multi-step browser
-automation.
+It renders JavaScript-heavy sites, reads PDFs, returns structured data,
+transforms content with AI, and runs multi-step browser tasks.
 
-This skill drives the official `tabstack` CLI — a single standalone binary.
+This skill drives the official `tabstack` CLI, a single standalone binary.
 
 ## Setup (first use only)
 
