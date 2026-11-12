@@ -82,9 +82,9 @@ unzip tabstack.skill -d "$SKILLS_DIR/tabstack/"
 
 Report a problem or request a feature in
 [tabstack-feedback](https://github.com/Mozilla-Ocho/tabstack-feedback/issues/new/choose).
-Include the skill and `tabstack` CLI versions and the `x-trace-id` from the
-failing response when relevant. Never paste API keys or personal data into
-an issue.
+Include the release or commit you installed, the CLI version (`tabstack
+--version`), and, when relevant, the trace id that `tabstack --debug`
+prints. Never paste API keys or personal data into an issue.
 
 ## Development
 
