@@ -78,6 +78,15 @@ mkdir -p "$SKILLS_DIR/tabstack"
 unzip tabstack.skill -d "$SKILLS_DIR/tabstack/"
 ```
 
+## Feedback
+
+Report a problem or request a feature in
+[tabstack-feedback](https://github.com/Mozilla-Ocho/tabstack-feedback/issues/new/choose).
+Include the release or commit you installed, the CLI version
+(`tabstack --version`), and, when relevant, the `trace=` value from the
+`debug` line that `tabstack --debug` (CLI 1.0.3 or later) prints to stderr. Never paste API keys or personal data into an
+issue.
+
 ## Development
 
 Validate the skill structure:
